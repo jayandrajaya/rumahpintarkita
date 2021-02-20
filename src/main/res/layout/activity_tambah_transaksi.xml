@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahTransaksi"
+    android:orientation="vertical"
+    >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tl_masukkan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Tambah Transaksi"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_weight="1"
+    >
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Nama Peminjam"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/et_judul"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Judul Buku"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/et_lama"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Lama Peminjaman"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/et_jumlah"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Jumlah Buku"
+        android:textAlignment="center"
+        />
+    <Button
+        android:id="@+id/btn_masukan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Masukkan Data"
+        />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_tambah"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="TAMBAH"
+
+            />
+        <Button
+            android:id="@+id/btn_Daftar"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Daftar"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
